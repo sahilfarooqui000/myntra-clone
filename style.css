@@ -3,6 +3,7 @@
     padding: 0%;
     box-sizing: border-box;
     font-family: "Assistant", sans-serif;
+    list-style: none;
 
 
 }
@@ -17,8 +18,146 @@ header {
     align-items: center;
     position: sticky;
     top: 0px;
-    background-color: #fff;
+    background-color: #fff; color: #282c3f;
 }
+
+.mega {
+    width: 1100px;
+    height: 450px;
+   
+    position: absolute;
+    top: 50px;
+    left: 4%;
+    font-size: 12px;
+    color: #282c3f;
+    background-color: #fff; visibility: hidden; opacity: 0; display: flex; justify-content: space-around;
+
+
+}
+
+.menpage:hover .mega{ visibility: visible; opacity: 1;}
+
+
+.mega hr {
+    width: 185px;
+    margin-top: 20px; margin-bottom: 20px;
+}
+
+.mega li {
+    margin-top: 7px;
+}
+
+.mega h1 {
+    font-size: 12px;
+    color: #ee5f73;
+    margin-top: 20px;
+   font-weight: 700;
+    margin-bottom: 15px;
+}
+
+
+.menu {
+    width: 1100px;
+    height: 450px;
+  
+    position: absolute;
+    top: 50px;
+    left: 4%;
+    font-size: 11px;
+    color: #282c3f;
+    background-color: #fff; visibility: hidden; opacity: 0; display: flex; justify-content: space-around; 
+
+
+}
+
+.womenspage:hover .menu{ visibility: visible; opacity: 1;}
+
+
+.menu hr {
+    width: 185px;
+    margin-top: 20px; margin-bottom: 20px;
+}
+
+.menu li {
+    margin-top: 7px;
+}
+
+.menu h1 {
+    font-size: 11px;
+    color: #fb56c1;
+    margin-top: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;}
+
+    .kidmenu {
+        width: 1100px;
+        height: 450px;
+   
+        position: absolute;
+        top: 50px;
+        left: 4%;
+        font-size: 12px;
+        color: #282c3f;
+        background-color: #fff; visibility: hidden; opacity: 0; display: flex; justify-content: space-around;
+    
+    
+    }
+    
+    .kidspage:hover .kidmenu{ visibility: visible; opacity: 1;}
+    
+    
+    .kidmenu hr {
+        width: 185px;
+        margin-top: 20px; margin-bottom: 20px;
+    }
+    
+    .kidmenu li {
+        margin-top: 7px;
+    }
+    
+    .kidmenu h1 {
+        font-size: 12px;
+        color: #f26a10;
+        margin-top: 20px;
+       font-weight: 700;
+        margin-bottom: 15px;
+    }
+    .homemenu {
+        width: 1100px;
+        height: 450px;
+   
+        position: absolute;
+        top: 50px;
+        left: 4%;
+        font-size: 12px;
+        color: #282c3f;
+        background-color: #fff; visibility: hidden; opacity: 0; display: flex; justify-content: space-around;
+    
+    
+    }
+    
+    .homepage:hover .homemenu{ visibility: visible; opacity: 1;}
+    
+    
+    .homemenu hr {
+        width: 185px;
+        margin-top: 20px; margin-bottom: 20px;
+    }
+    
+    .homemenu li {
+        margin-top: 7px;
+    }
+    
+    .homemenu h1 {
+        font-size: 12px;
+        color: #f26a10;
+        margin-top: 20px;
+       font-weight: 700;
+        margin-bottom: 15px;
+    }
+    
+    
+
 
 .logo {
     background-image: url(img.myntra/MyntraWebSprite_27_01_2021.png);
@@ -46,8 +185,8 @@ a {
     width: 20px;
     height: 13px;
     position: absolute;
-    top: 30px;
-    left: 623px;
+    top: 1px;
+    left: 500px;
     font-size: 8px;
 }
 
@@ -62,6 +201,7 @@ nav {
     letter-spacing: .3px;
     font-weight: 600;
     margin-left: 15px;
+    position: relative;
 
 }
 
@@ -240,14 +380,18 @@ nav {
 
 .bottom {
     width: 100%;
-    height: 600px;
+    height: 425px;
     background-color: #fafbfc;
-    border: solid 1px olive; display: flex;
+    padding-top: 20px;
+
+    display: flex;
+    margin-top: 50PX;
 }
 
 .topbottom {
     height: 425px;
     width: 190px;
+    margin-left: 100px;
 
 
 
@@ -272,6 +416,7 @@ nav {
     height: 24;
     float: left;
     margin: 5px 20px 5px 1px;
+    color: #696b79;
 }
 
 .topleftb {
@@ -289,6 +434,7 @@ nav {
     height: 24;
     float: left;
     margin: 5px 20px 5px 1px;
+    color: #696b79;
 }
 
 .topleftb h5 {
@@ -336,8 +482,121 @@ nav {
     font-size: 12px;
     color: #fff;
     background-color: rgba(255, 179, 0, 1);
-    position: fixed; top: 527px; right: 0px;
+    position: fixed;
+    top: 527px;
+    right: 0px;
     font-weight: 700;
     text-align: center;
 }
-.topmid{width: 147px; height: 293px; border: 1px solid black; }
+
+.topmid {
+    width: 147px;
+    height: 293px;
+    margin-left: 30px;
+
+
+}
+
+.topmid a {
+    width: 147px;
+    height: auto;
+    float: left;
+    padding-top: 10px;
+    color: #696b79;
+}
+
+.topmid h5 {
+    padding-bottom: 5px;
+}
+
+.appexp {
+    width: 380px;
+    height: 175px;
+    margin-left: 50PX;
+
+}
+
+.dowimg {
+    width: 140px;
+    height: 42px;
+    margin-top: 10px;
+    float: left;
+}
+
+.dowimg2 {
+    width: 140px;
+    height: 42px;
+    margin-top: 10px;
+    float: right;
+    margin: 10px 90px 0px 0px;
+}
+
+.keepin {
+    font-size: 13px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    margin-top: 66px;
+}
+
+.appexp a {
+    height: 23px;
+    width: 23px;
+    padding-right: 7px;
+}
+
+.topright {
+    width: 290px;
+    height: 160px;
+    margin-top: 10px;
+}
+
+.original {
+    display: flex;
+}
+
+.wti {
+    display: flex;
+    margin-top: 20px;
+}
+
+.wti img {
+    padding-bottom: 10px;
+    padding-right: 5px;
+}
+
+.p {
+    width: 1230PX;
+    height: 130px;
+    background-color: #fafbfc;
+    padding-left: 55px;
+    margin-left: 75px; padding-top: 20px; padding-bottom: 20px;
+
+}
+
+.p a {
+    padding-top: 45px;
+}
+
+.h5 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 145PX;
+}
+
+.bb {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.in {
+    margin-right: 80px;
+}
+
+.flipkart {
+    margin-right: 80px;
+}
+
+.www {
+    margin-right: 80px;
+}
