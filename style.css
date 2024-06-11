@@ -10,6 +10,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap');
 
+
 header {
     width: 100%;
     height: 80px;
@@ -18,29 +19,39 @@ header {
     align-items: center;
     position: sticky;
     top: 0px;
-    background-color: #fff; color: #282c3f;
+    background-color: #fff;
+    color: #282c3f;
 }
 
 .mega {
     width: 1100px;
-    height: 450px;
-   
+    height: 550px;
+
     position: absolute;
     top: 50px;
     left: 4%;
     font-size: 12px;
     color: #282c3f;
-    background-color: #fff; visibility: hidden; opacity: 0; display: flex; justify-content: space-around;
+    background-color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    display: flex;
+    justify-content: space-around;
+    font-weight: 400;
 
 
 }
 
-.menpage:hover .mega{ visibility: visible; opacity: 1;}
+.menpage:hover .mega {
+    visibility: visible;
+    opacity: 1;
+}
 
 
 .mega hr {
     width: 185px;
-    margin-top: 20px; margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .mega li {
@@ -51,31 +62,44 @@ header {
     font-size: 12px;
     color: #ee5f73;
     margin-top: 20px;
-   font-weight: 700;
+    font-weight: 700;
     margin-bottom: 15px;
+    height: 39px;
+    width: 190px;
 }
+
 
 
 .menu {
     width: 1100px;
-    height: 450px;
-  
+    height: 550px;
+
+
     position: absolute;
     top: 50px;
     left: 4%;
-    font-size: 11px;
+    font-size: 12px;
     color: #282c3f;
-    background-color: #fff; visibility: hidden; opacity: 0; display: flex; justify-content: space-around; 
+    background-color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    display: flex;
+    justify-content: space-around;
+    font-weight: 400;
 
 
 }
 
-.womenspage:hover .menu{ visibility: visible; opacity: 1;}
+.womenspage:hover .menu {
+    visibility: visible;
+    opacity: 1;
+}
 
 
 .menu hr {
     width: 185px;
-    margin-top: 20px; margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .menu li {
@@ -87,76 +111,212 @@ header {
     color: #fb56c1;
     margin-top: 20px;
     font-weight: 700;
-    margin-bottom: 15px;}
+    margin-bottom: 15px;
+}
 
-    .kidmenu {
-        width: 1100px;
-        height: 450px;
+.kidmenu {
+    width: 1100px;
+    height: 550px;
+
+    position: absolute;
+    top: 50px;
+    left: 4%;
+    font-size: 12px;
+    color: #282c3f;
+    background-color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    display: flex;
+    justify-content: space-around;
+    font-weight: 400;
+
+
+}
+
+.kidspage:hover .kidmenu {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.kidmenu hr {
+    width: 185px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.kidmenu li {
+    margin-top: 7px;
+}
+
+.kidmenu h1 {
+    font-size: 12px;
+    color: #f26a10;
+    margin-top: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.homemenu {
+    width: 1100px;
+    height: 550px;
+
+    position: absolute;
+    top: 50px;
+    left: 4%;
+    font-size: 12px;
+    color: #282c3f;
+    background-color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    display: flex;
+    justify-content: space-around;
+    font-weight: 400;
+
+
+}
+
+.homepage:hover .homemenu {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.homemenu hr {
+    width: 185px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.homemenu li {
+    margin-top: 7px;
+}
+
+.homemenu h1 {
+    font-size: 12px;
+    color: #f2c210;
+    margin-top: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.beautymenu {
+    width: 1100px;
+    height: 550px;
+
+    position: absolute;
+    top: 50px;
+    left: 4%;
+    font-size: 12px;
+    color: #282c3f;
+    background-color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    display: flex;
+    justify-content: space-around;
+    font-weight: 400;
+
+
+}
+
+.beautypage:hover .beautymenu {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.beautymenu hr {
+    width: 185px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.beautymenu li {
+    margin-top: 7px;
+}
+
+.beautymenu h1 {
+    font-size: 12px;
+    color: #0db7af;
+    margin-top: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    height: 39px;
+    width: 190px;
+}
+
+.studiomenu {
+    width: 600px;
+    height: 500px;
+
+    position: absolute;
+    top: 50px;
+    left: 200px;
+    font-size: 12px;
+    color: #282c3f;
+    background-color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    font-weight: 400;
+
+
+}
+
+.imgstudio {
+    width: 450px;
+    height: 50px;
+    margin-top: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.textstudio {
+    width: 450px;
+    height: auto;
+
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px; margin-bottom: 30px;
+}
+
+.studiopage:hover .studiomenu {
+    visibility: visible;
+    opacity: 1;
+}
+
+.virat {
+    width: 514px;
+    height: 274px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
    
-        position: absolute;
-        top: 50px;
-        left: 4%;
-        font-size: 12px;
-        color: #282c3f;
-        background-color: #fff; visibility: hidden; opacity: 0; display: flex; justify-content: space-around;
-    
-    
-    }
-    
-    .kidspage:hover .kidmenu{ visibility: visible; opacity: 1;}
-    
-    
-    .kidmenu hr {
-        width: 185px;
-        margin-top: 20px; margin-bottom: 20px;
-    }
-    
-    .kidmenu li {
-        margin-top: 7px;
-    }
-    
-    .kidmenu h1 {
-        font-size: 12px;
-        color: #f26a10;
-        margin-top: 20px;
-       font-weight: 700;
-        margin-bottom: 15px;
-    }
-    .homemenu {
-        width: 1100px;
-        height: 450px;
-   
-        position: absolute;
-        top: 50px;
-        left: 4%;
-        font-size: 12px;
-        color: #282c3f;
-        background-color: #fff; visibility: hidden; opacity: 0; display: flex; justify-content: space-around;
-    
-    
-    }
-    
-    .homepage:hover .homemenu{ visibility: visible; opacity: 1;}
-    
-    
-    .homemenu hr {
-        width: 185px;
-        margin-top: 20px; margin-bottom: 20px;
-    }
-    
-    .homemenu li {
-        margin-top: 7px;
-    }
-    
-    .homemenu h1 {
-        font-size: 12px;
-        color: #f26a10;
-        margin-top: 20px;
-       font-weight: 700;
-        margin-bottom: 15px;
-    }
-    
-    
+    margin: auto;
+}
+
+.explore {
+    width: 195px;
+    height: 42PX;
+    border: 1px solid grey;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center; font-size: 14px; font-weight: 700;
+}
+.explore i{ margin-left: 20px;}
+
+
+
+
+
+
 
 
 .logo {
@@ -185,8 +345,8 @@ a {
     width: 20px;
     height: 13px;
     position: absolute;
-    top: 1px;
-    left: 500px;
+    top: -1px;
+    left: 505px;
     font-size: 8px;
 }
 
@@ -254,16 +414,25 @@ nav {
 }
 
 .user {
-    margin-left: 3.5px;
+    margin-left: -0.5px;
+    font-weight: 700;
+    font-size: 12px;
+    margin-top: 2px;
 
 }
 
 .wishlist {
-    margin-left: -5px;
+    margin-left: -2.5px;
+    font-weight: 700;
+    font-size: 12px;
+    margin-top: 2px;
 }
 
 .bag {
-    margin-left: 5.5px;
+    margin-left: 6.5px;
+    font-weight: 700;
+    font-size: 12px;
+    margin-top: 2px;
 }
 
 .flatoff {
@@ -457,14 +626,13 @@ nav {
 
 .fixbox {
     bottom: 130px;
-    width: 44px;
-    height: 288px;
+    height: 44px;
+    width: 288px;
     background-color: #535766;
     position: fixed;
-    top: 240px;
-    right: 0px;
-    display: table-row;
-    justify-content: center;
+    top: 355px;
+    right: -120px;
+  color: white;
 }
 
 .fixtext {
@@ -569,7 +737,9 @@ nav {
     height: 130px;
     background-color: #fafbfc;
     padding-left: 55px;
-    margin-left: 75px; padding-top: 20px; padding-bottom: 20px;
+    margin-left: 75px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 
 }
 
@@ -580,7 +750,7 @@ nav {
 .h5 {
     padding-top: 20px;
     padding-bottom: 10px;
-    width: 145PX;
+    width: 145PX; 
 }
 
 .bb {
